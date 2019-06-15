@@ -6,3 +6,7 @@ H
 :
 
 index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
+\
+,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
+E
+assets/js/movement.js,a\c\ace1df04247d615a879e87a90fd33a28cd63f956
