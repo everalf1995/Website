@@ -316,7 +316,7 @@
 				<div class="row">
 
 					<!-- Skills Background -->
-					<div class="lqd-column col-md-6 col-md-offset-3 px-md-5 mb-40">
+					<div class="lqd-column col-md-6 col-md-offset-3 px-md-5 mb-20">
 						<header class="fancy-title text-center" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateX":-32,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
 							<h2 class="font-size-44 text-secondary">Skills</h2>
 							<div class="lqd-column font-size-16">
@@ -358,6 +358,7 @@
 											<div class="accordion-content">
 
 												<div class="row center-block">
+
 													<!-- Column 1 -->
 													<div class="col-md-5 text-white" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
 														<h4 class="text-white mt-0 mb-1">Java</h4>
@@ -375,6 +376,7 @@
 														<h4 class="text-white mt-0 mb-1">JavaScript</h4>
 														<p class="text-fade-white-04 mb-3">1 Year of Experience</p>
 													</div>
+
 												</div>
 											</div>
 										</div>
@@ -449,7 +451,7 @@
 												</span>
 												</a>
 											</h4>
-										</div><!-- /.accordion-heading -->
+										</div>
 
 										<!-- Content -->
 										<div id="panel-3" class="accordion-collapse collapse" role="tabpanel" aria-labelledby="design-tools">
@@ -683,7 +685,9 @@
 		<!-- Projects -->
 		<section class="vc_row fullheight d-flex flex-wrap align-items-center pt-200 pb-100" id="projects">
 			<div class="container">
-				<div class="row" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":".lqd-column","duration":"1600","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":80,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+				<div class="row"
+					 data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"800","startDelay":"200","delay":"100","easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'
+					 data-custom-animations="true">
 
 					<!-- Title -->
 					<div class="lqd-column col-md-6 col-md-offset-3 px-md-5">
@@ -903,83 +907,162 @@
 												</span>
 										</a>
 									</div>
-
 								</div>
-
 							</div>
-
 						</div>
-
 					</div>
-
 				</div>
 			</div>
 		</section>
 
 		<!-- Contact -->
-		<section id="contact" class="vc_row fullheight d-flex flex-wrap align-items-center pt-200 pb-100">
+		<section class="vc_row pt-30 pb-60" id="services">
+			<div class="container">
 
-			<div class="container" >
 				<div class="row">
 
-					<!-- Title -->
-					<div class="lqd-column col-md-3">
-
-						<header class="fancy-title mb-2">
+					<!-- Contact Background -->
+					<div class="lqd-column col-md-10 col-md-offset-1">
+						<header class="fancy-title text-center mb-2"
+								data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"initValues":{"translateY":80,"opacity":0},"animations":{"translateY":0,"opacity":1}}'
+								data-custom-animations="true">
 							<h2 class="font-size-44 text-tertiary">Contact Me</h2>
+
+							<div class="row">
+								<div class="lqd-column col-md-8 col-md-offset-2 px-md-5">
+									<p class="mb-60">If you would like to contact me, the best way to do so is by
+										sending me an email, but feel free to call me.
+										Whether for a potential project or just to say hi, I'll try my best to get back
+										to you as soon as I can!
+								</div>
+							</div>
+
 						</header>
-
-						<p class="mb-60">If you would like to contact me, the best way to do so is by sending me an
-							email, but feel free to call me.
-							Whether for a potential project or just to say hi, I'll try my best to get back to you as
-							soon as I can!
-						</p>
-
-						<ul class="social-icon scheme-white social-icon-md">
-							<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
-						</ul>
-
 					</div>
 
-					<div class="col-md-8 col-md-offset-1">
+				</div>
 
-						<div class="contact-form contact-form-inputs-sm contact-form-inputs-underlined contact-form-button-bordered contact-form-button-border-thick contact-form-button-md">
-							<form action="assets/php/mailer.php" method="post" novalidate="novalidate">
-								<div class="row">
-									<div class="col-md-6">
-										<input type="text" name="name" aria-required="true" aria-invalid="false" placeholder="First Name" required>
-									</div><!-- /.col-md-6 -->
-									<div class="col-md-6">
-										<input type="text" name="lname" aria-required="true" aria-invalid="false" placeholder="Last Name" required>
-									</div><!-- /.col-md-6 -->
-									<div class="col-md-12">
-										<input type="email" name="email" aria-required="true" aria-invalid="false" placeholder="Your email address" required>
-									</div><!-- /.col-md-6 -->
-									<div class="col-md-12">
-										<textarea cols="10" rows="4" name="message" aria-required="true" aria-invalid="false" placeholder="Message" required></textarea>
-									</div><!-- /.col-md-12 -->
-									<div class="col-md-6">
-										<p class="font-size-16 opacity-07"><em>We all know how important your information is. They are always safe with us.</em></p>
-									</div><!-- /.col-md-6 -->
-									<div class="col-md-6 text-md-right">
-										<input type="submit" value="SEND MESSAGE" class="font-size-14 ltr-sp-2">
-									</div><!-- /.col-md-6 -->
-								</div><!-- /.row -->
-							</form>
-							<div class="contact-form-result hidden"></div><!-- /.contact-form-result -->
-						</div><!-- /.contact-form -->
+				<!-- Contact Elements -->
+				<div class="row"
+					 data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","delay":"180","initValues":{"scale":0.8,"opacity":0},"animations":{"scale":1,"opacity":1}}'
+					 data-custom-animations="true">
 
-					</div><!-- /.col-md-8 col-md-offset-1 -->
+					<!-- Email -->
+					<div class="lqd-column col-md-6">
+						<div class="iconbox iconbox-side iconbox-semiround iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element"
+							 data-animate-icon="true"
+							 data-plugin-options='{"resetOnHover":false,"color":"#2EC4B6","hoverColor":"#fff"}'
+							 id="iconbox-email">
+							<span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-primary-tl"></span>
+							<div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg class="feather feather-mail" fill="none" height="64" stroke="currentColor"
+											 stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+											 viewBox="0 0 24 24" width="64" xmlns="http://www.w3.org/2000/svg"><path
+												d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline
+												points="22,6 12,13 2,6"></polyline></svg>
+									</span>
+							</div>
 
-				</div><!-- /.row -->
-			</div><!-- /.container -->
+							<div class="contents">
+								<h3 class="font-weight-semibold mb-0">Email</h3>
+								<p class="text-tertiary font-weight-medium">everbarillas@outlook.com</p>
+								<a class="liquid-overlay-link" href="mailto:everbarillas@outlook.com" target="_top"></a>
+							</div>
+							<a class="liquid-overlay-link" href="mailto:everbarillas@outlook.com" target="_top"></a>
+						</div>
+					</div>
 
+					<!-- Linked In -->
+					<div class="lqd-column col-md-6">
+						<div class="iconbox iconbox-side iconbox-semiround iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element"
+							 data-animate-icon="true"
+							 data-plugin-options='{"resetOnHover":false,"color":"#2EC4B6","hoverColor":"#fff"}'
+							 id="iconbox-linked">
+							<span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-primary-tl"></span>
+							<div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg class="feather feather-linkedin" fill="none" height="64"
+											 stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+											 stroke-width="1" viewBox="0 0 24 24" width="64"
+											 xmlns="http://www.w3.org/2000/svg"><path
+												d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect
+												height="12" width="4" x="2" y="9"></rect><circle cx="4" cy="4"
+																								 r="2"></circle></svg>
+									</span>
+							</div>
+
+							<div class="contents">
+								<h3 class="font-weight-semibold mb-0">Linked In</h3>
+								<p class="text-tertiary font-weight-medium">linkedin.com/in/everbarillas</p>
+								<a class="liquid-overlay-link" href="https://www.linkedin.com/in/everbarillas/"
+								   target="_blank"></a>
+							</div>
+							<a class="liquid-overlay-link" href="https://www.linkedin.com/in/everbarillas/"
+							   target="_blank"></a>
+						</div>
+					</div>
+
+					<!-- GitHub-->
+					<div class="lqd-column col-md-6">
+						<div class="iconbox iconbox-side iconbox-semiround iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element"
+							 data-animate-icon="true"
+							 data-plugin-options='{"resetOnHover":false,"color":"#2EC4B6","hoverColor":"#fff"}'
+							 id="iconbox-github">
+							<span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-primary-tl"></span>
+							<div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg class="feather feather-github" fill="none" height="64"
+											 stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+											 stroke-width="1" viewBox="0 0 24 24" width="64"
+											 xmlns="http://www.w3.org/2000/svg"><path
+												d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+									</span>
+							</div>
+
+							<div class="contents">
+								<h3 class="font-weight-semibold mb-0">GitHub</h3>
+								<p class="text-tertiary font-weight-medium">github.com/everalf1995</p>
+								<a class="liquid-overlay-link" href="https://github.com/everalf1995"
+								   target="_blank"></a>
+							</div>
+							<a class="liquid-overlay-link" href="https://github.com/everalf1995" target="_blank"></a>
+						</div>
+					</div>
+
+					<!-- Phone Number -->
+					<div class="lqd-column col-md-6">
+						<div class="iconbox iconbox-side iconbox-semiround iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element"
+							 data-animate-icon="true"
+							 data-plugin-options='{"resetOnHover":false,"color":"#2EC4B6","hoverColor":"#fff"}'
+							 id="iconbox-phone">
+							<span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-primary-tl"></span>
+							<div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg class="feather feather-phone" fill="none" height="64" stroke="currentColor"
+											 stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+											 viewBox="0 0 24 24" width="64" xmlns="http://www.w3.org/2000/svg"><path
+												d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+									</span>
+							</div>
+
+							<div class="contents">
+								<h3 class="font-weight-semibold mb-0">Phone Number</h3>
+								<p class="text-tertiary font-weight-medium">+1 (717) 331-3661</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
 		</section>
 
 		<!-- Resume -->
 		<section class="vc_row align-items-center pt-200 pb-100" id="resume">
-			<div class="container">
+			<div class="container"
+				 data-ca-options='{ "triggerHandler":"inview", "animationTarget":"all-childs", "duration":"1200", "delay":"150", "easing":"easeOutQuint", "direction":"forward", "initValues":{"translateY":60, "translateZ":-160, "rotateX":-84, "opacity":0}, "animations":{"translateY":0, "translateZ":0, "rotateX":0, "opacity":1} }'
+				 data-custom-animations="true">
 				<div class="row">
 
 					<div class="lqd-column col-md-12">
@@ -1001,8 +1084,8 @@
 
 									<h3 class="mb-2 font-size-30">Thank you for visiting my website!</h3>
 									<p class="text-fade-white-09 w-60">
-										I am currently looking for a full-time job opportunity. Feel free to look at my
-										resume and contact me if you would like me to be part of your team.
+										I am currently looking for a full-time position. Feel free to look at my resume
+										and contact me if you would like me to be part of your team :)
 									</p>
 								</div>
 
