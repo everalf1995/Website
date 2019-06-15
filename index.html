@@ -20,6 +20,7 @@
 
 	<!-- Head Libs -->
 	<script async src="assets/vendors/modernizr.min.js"></script>
+    <script src="assets/js/movement.js"></script>
 
 </head>
 
@@ -66,7 +67,8 @@
 
 									<!-- Home -->
 									<li>
-										<a href="#home">
+                                        <a href=""
+                                           onclick="smoothScroll(document.getElementById('home'));return false;">
 											<span class="link-txt">
 												<span class="link-ext"></span>
 												<span class="txt">Home<span class="submenu-expander"><i class="fa fa-angle-down"></i></span></span>
@@ -76,7 +78,8 @@
 
 									<!-- About -->
 									<li>
-										<a href="#about">
+                                        <a href=""
+                                           onclick="smoothScroll(document.getElementById('about'));return false;">
 											<span class="link-txt">
 												<span class="link-ext"></span>
 												<span class="txt">About<span class="submenu-expander"><i class="fa fa-angle-down"></i></span></span>
@@ -86,7 +89,8 @@
 
 									<!-- Skills -->
 									<li>
-										<a href="#skills">
+                                        <a href=""
+                                           onclick="smoothScroll(document.getElementById('skills'));return false;">
 											<span class="link-txt">
 												<span class="link-ext"></span>
 												<span class="txt">Skills<span class="submenu-expander"><i class="fa fa-angle-down"></i></span></span>
@@ -96,7 +100,8 @@
 
 									<!-- Experience -->
 									<li>
-										<a href="#experience">
+                                        <a href=""
+                                           onclick="smoothScroll(document.getElementById('experience'));return false;">
 											<span class="link-txt">
 												<span class="link-ext"></span>
 												<span class="txt">Experience<span class="submenu-expander"><i
@@ -107,7 +112,8 @@
 
 									<!-- Personal Projects -->
 									<li>
-										<a href="#projects">
+                                        <a href=""
+                                           onclick="smoothScroll(document.getElementById('projects'));return false;">
 											<span class="link-txt">
 												<span class="link-ext"></span>
 												<span class="txt">Projects<span class="submenu-expander"><i
@@ -118,7 +124,8 @@
 
 									<!-- Contact -->
 									<li>
-										<a href="#contact">
+                                        <a href=""
+                                           onclick="smoothScroll(document.getElementById('contact'));return false;">
 											<span class="link-txt">
 												<span class="link-ext"></span>
 												<span class="txt">Contact<span class="submenu-expander"><i class="fa fa-angle-down"></i></span></span>
@@ -128,7 +135,8 @@
 
 									<!-- Resume -->
 									<li>
-										<a href="#resume">
+                                        <a href=""
+                                           onclick="smoothScroll(document.getElementById('resume'));return false;">
 											<span class="link-txt">
 												<span class="link-ext"></span>
 												<span class="txt">Resume<span class="submenu-expander"><i class="fa fa-angle-down"></i></span></span>
@@ -268,7 +276,9 @@
 							<div class="lqd-column mb-0 mt-3 iconbox iconbox-inline iconbox-xs">
 								<span class="iconbox-icon-wrap"><span class="iconbox-icon-container"><img src="assets/graphics/email.svg" alt="Email"/></span></span>
 								<p class="font-size-14"><span class="text-secondary">EMAIL:</span> everbarillas@outlook.com</p>
-							</div>
+                                <a class="liquid-overlay-link" href="mailto:everbarillas@outlook.com" target="_top"></a>
+
+                            </div>
 
 							<div class="lqd-column mb-0 mt-3 iconbox iconbox-inline iconbox-xs">
 								<span class="iconbox-icon-wrap"><span class="iconbox-icon-container"><img src="assets/graphics/phone.svg" alt="Phone Number"/></span></span>
@@ -916,7 +926,7 @@
 		</section>
 
 		<!-- Contact -->
-		<section class="vc_row pt-30 pb-60" id="services">
+        <section class="vc_row fullheight d-flex flex-wrap align-items-center pt-200 pb-100" id="contact">
 			<div class="container">
 
 				<div class="row">
@@ -931,7 +941,7 @@
 							<div class="row">
 								<div class="lqd-column col-md-8 col-md-offset-2 px-md-5">
 									<p class="mb-60">If you would like to contact me, the best way to do so is by
-										sending me an email, but feel free to call me.
+                                        sending me an email or through LinkedIn, but feel free to call me.
 										Whether for a potential project or just to say hi, I'll try my best to get back
 										to you as soon as I can!
 								</div>
@@ -973,7 +983,7 @@
 						</div>
 					</div>
 
-					<!-- Linked In -->
+                    <!-- LinkedIn -->
 					<div class="lqd-column col-md-6">
 						<div class="iconbox iconbox-side iconbox-semiround iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element"
 							 data-animate-icon="true"
@@ -993,7 +1003,7 @@
 							</div>
 
 							<div class="contents">
-								<h3 class="font-weight-semibold mb-0">Linked In</h3>
+                                <h3 class="font-weight-semibold mb-0">LinkedIn</h3>
 								<p class="text-tertiary font-weight-medium">linkedin.com/in/everbarillas</p>
 								<a class="liquid-overlay-link" href="https://www.linkedin.com/in/everbarillas/"
 								   target="_blank"></a>
