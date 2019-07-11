@@ -14,3 +14,9 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 P
  assets/css/theme-vendors.min.css,b\9\b9ce3745e1e58bfa1a6ddde7a339fc156c4e604f
+I
+assets/graphics/email.svg,9\8\982f58153619ce9b307b2b15762119c3107a34b5
+L
+assets/graphics/location.svg,b\7\b7e3e18121a18287eeaf16c8c506d486fcc54068
+I
+assets/graphics/phone.svg,9\6\960218b5c1ee5206483b6771b1234438326d012f
